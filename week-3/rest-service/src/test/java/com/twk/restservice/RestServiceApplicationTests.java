@@ -8,6 +8,28 @@ class RestServiceApplicationTests {
 
 	@Test
 	void contextLoads() {
+		
 	}
+
+	@Test
+	void DocData(){
+
+	}
+
+	@ Test
+	void customer(){
+
+	}
+
+	@Test
+	void CRUDController(){
+
+	}
+
+	@Test
+	void GreetingController(){
+
+	}
+
 
 }

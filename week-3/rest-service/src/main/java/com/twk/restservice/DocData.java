@@ -24,10 +24,11 @@ public class DocData {
     	//Class.forName("com.mysql.jdbc.Driver");  
     	try {
 			Connection con=DriverManager.getConnection(  
-			"jdbc:mysql://localhost:3306/test","root","root");
+			"jdbc:mysql://localhost:8081/test","root","root"); //Changed from 3306 to 8081
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			
 		}  
     	//here test is database name, root is username and password  
 
