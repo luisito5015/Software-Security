@@ -15,25 +15,25 @@
 	<description>ssl-server skeleton for CS-305</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>16</java.version> <!-- Changed the version to 16 instead of 1.8-->
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-rest</artifactId>
-			<version>2.5.2</version> <!-- Added version to this bootDataRest-->
+			<!-- <version>2.5.2</version> Added version to this bootDataRest -->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>2.5.2</version> <!-- Added version to this starterWeb-->
+			<!-- <version>2.5.2</version> Added version to this starterWeb -->
 		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>2.5.2</version> <!-- Added version to this starterTest-->
+			<!-- <version>2.5.2</version> Added version to this starterTest -->
 			<scope>test</scope>
 			<exclusions>
 				<exclusion>

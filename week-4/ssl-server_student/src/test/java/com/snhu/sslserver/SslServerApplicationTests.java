@@ -10,4 +10,9 @@ class SslServerApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void SslServerController(){
+		
+	}
+
 }
